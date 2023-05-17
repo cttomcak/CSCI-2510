@@ -1,0 +1,8 @@
+/* The game engine is obviously heavily inspired by (and transcribed from)
+   Dr. Brian Ricks' game engine, which we worked on all semester. */
+
+/* Just hides margins and scroll bars */
+body {
+  margin: 0;
+  overflow: hidden;
+}

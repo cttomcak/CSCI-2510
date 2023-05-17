@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="/engine/engine.css" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="canv"></canvas>
+    <script type="module">
+        import "/engine/engine.js"
+        import "./Scenes.js"
+        SceneManager.setScenes(allScenes)
+        start("Budget Mario", { aspectRatio: 4 / 3, logicalWidth: 512, letterboxColor: "black" })
+    </script>
+</body>
+
+</html>
